@@ -2,8 +2,6 @@
 
 This project designed using figma and built using flutter.
 
-  
-
 
 ## 💻 Requirements 
 
@@ -20,6 +18,7 @@ This project designed using figma and built using flutter.
   
 
 ## 🖼 Screenshots
+![1680815491888](https://user-images.githubusercontent.com/67127338/230507310-028f5c81-9460-44f4-baf7-fcbb9e9c0a47.jpg)
 
 
 ## 👨‍💻 Auther
