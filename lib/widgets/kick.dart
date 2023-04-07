@@ -25,8 +25,14 @@ class _KickState extends State<Kick> {
           sigma: 30,
           opacity: 1,
           offset: const Offset(0, 30),
-          child: Image.asset(
-            AppAssets.kick,
+          child: Container(
+            decoration: const BoxDecoration(
+                shape: BoxShape.circle,
+                image:  DecorationImage(
+                  fit: BoxFit.cover,
+                    image: AssetImage(
+                  AppAssets.kick,
+                ))),
           )
               .animate(
                   onComplete: (_) => setState(() {
