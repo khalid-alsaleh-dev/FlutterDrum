@@ -51,12 +51,12 @@ class Home extends StatelessWidget {
                       bottom: 0.w,
                       right: 450.w,
                       child: SizedBox(
-                          width: 500.w, height: 350.w, child: const Kick())),
+                          width: 450.w, height: 450.w, child: const Kick())),
                   Positioned(
                       bottom: 0.w,
                       left: 450.w,
                       child: SizedBox(
-                          width: 500.w, height: 350.w, child: const Kick())),
+                          width: 450.w, height: 450.w, child: const Kick())),
                   Center(
                       child: Padding(
                     padding: EdgeInsets.only(top: 200.0.w),
