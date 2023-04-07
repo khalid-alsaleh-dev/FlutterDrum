@@ -1,7 +1,6 @@
 import 'package:flutter/services.dart';
 import 'package:soundpool/soundpool.dart';
 
-
 class AppAssets {
   static const closeHH = 'assets/images/close_hh.png';
   static const crash = 'assets/images/crash.png';
@@ -19,7 +18,7 @@ class AppAssets {
   static const _crash2Sound = 'assets/sound_effects/crash2.mp3';
   static const _floorSound = 'assets/sound_effects/floor.mp3';
   static const _hiHatOpenSound = 'assets/sound_effects/hi_hat_open.mp3';
-  static const _kickSound = 'assets/sound_effects/kick.wav';
+  static const _kickSound = 'assets/sound_effects/kick.mp3';
   static const _rideSound = 'assets/sound_effects/ride.mp3';
   static const _snareSound = 'assets/sound_effects/snare.mp3';
   static const _splashSound = 'assets/sound_effects/splash.mp3';
@@ -82,14 +81,10 @@ class AppAssets {
         await rootBundle.load(_rideSound).then((ByteData soundData) {
       return pool.load(soundData);
     });
-
-
      snareSoundId =
         await rootBundle.load(_snareSound).then((ByteData soundData) {
       return pool.load(soundData);
     });
-
-
      splashSoundId =
         await rootBundle.load(_splashSound).then((ByteData soundData) {
       return pool.load(soundData);
@@ -107,6 +102,4 @@ class AppAssets {
       return pool.load(soundData);
     });
   }
-
-  
 }
