@@ -1,25 +1,26 @@
-# Flutter Drum App 👏👍🔥
+# Flutter Drum
 
-This project designed using figma and built using flutter.
+A simple interactive drum app built with Flutter.
 
+## Tech stack
 
-## 💻 Requirements 
+- Flutter
+- Dart
 
-- Any Operating System (MacOS, Linux, Windows)
-- Any IDE with Flutter SDK installed (Android Studio, VSCode etc)
-- A little knowledge of Dart and Flutter
+## Run locally
 
-## Download The Project,Install Dependencies && Run The Project 
-- Run the next command to Clone the repo to your machine `https://github.com/khalid-alsaleh-dev/FlutterDrum`
-- Run the next commands to install the required dependencies
-  1. `cd <../path/to/flutter_drum>`
-  2. `flutter pub get`
-- Run the next command to run the project `flutter run`
-  
+1. Install the Flutter SDK.
+2. Clone this repository:
+   `git clone https://github.com/khalid-alsaleh-dev/FlutterDrum.git`
+3. Install dependencies and launch:
+   `cd FlutterDrum`
+   `flutter pub get`
+   `flutter run`
 
-## 🖼 Screenshots
-![1680815491888](https://user-images.githubusercontent.com/67127338/230507310-028f5c81-9460-44f4-baf7-fcbb9e9c0a47.jpg)
+## Screenshot
 
+![Drum app](https://user-images.githubusercontent.com/67127338/230507310-028f5c81-9460-44f4-baf7-fcbb9e9c0a47.jpg)
 
-## 👨‍💻 Auther
-Khalid Al-Saleh  khalid.alsaleh.dev@gmail.com
+## Author
+
+Khalid Al-Saleh
